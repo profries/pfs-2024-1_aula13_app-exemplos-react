@@ -1,5 +1,7 @@
 import Card from "./components/Card"
 import Hello from "./components/Hello"
+import ListCards from "./components/ListCards"
+import listaProdutos from './data/Produto.json'
 
 function App() {
   return (
@@ -12,6 +14,9 @@ function App() {
         <h3>Descricao</h3>
         <p>Detalhe do Produto</p>
       </Card>
+
+      <ListCards lista={listaProdutos} />
+
     </>
   )
 }
