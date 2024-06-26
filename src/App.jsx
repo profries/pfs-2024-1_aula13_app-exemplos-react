@@ -1,4 +1,6 @@
 import Card from "./components/Card"
+import ChangeColor from "./components/ChangeColor"
+import Counter from "./components/Counter"
 import Hello from "./components/Hello"
 import ListCards from "./components/ListCards"
 import TabelaProdutos from "./components/TabelaProdutos"
@@ -11,6 +13,8 @@ function App() {
       <Hello nome="Fulano"/>
       <Hello nome="Sicrano"/>
       <Hello />
+      <Counter />
+      <ChangeColor /> <br />
       <Card titulo="Produto 1">
         <h3>Descricao</h3>
         <p>Detalhe do Produto</p>
