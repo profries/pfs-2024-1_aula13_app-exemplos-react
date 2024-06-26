@@ -1,6 +1,7 @@
 import Card from "./components/Card"
 import Hello from "./components/Hello"
 import ListCards from "./components/ListCards"
+import TabelaProdutos from "./components/TabelaProdutos"
 import listaProdutos from './data/Produto.json'
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       </Card>
 
       <ListCards lista={listaProdutos} />
-
+      <TabelaProdutos lista={listaProdutos}></TabelaProdutos>
     </>
   )
 }
